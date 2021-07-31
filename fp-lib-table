@@ -1,0 +1,7 @@
+(fp_lib_table
+  (lib (name "acheron_Components")(type "KiCad")(uri "${KIPRJMOD}/Library/footprints/acheron_Components.pretty")(options "")(descr ""))
+  (lib (name "acheron_Connectors")(type "KiCad")(uri "${KIPRJMOD}/Library/footprints/acheron_Connectors.pretty")(options "")(descr ""))
+  (lib (name "acheron_Hardware")(type "KiCad")(uri "${KIPRJMOD}/Library/footprints/acheron_Hardware.pretty")(options "")(descr ""))
+  (lib (name "acheron_MXH")(type "KiCad")(uri "${KIPRJMOD}/Library/footprints/acheron_MXH.pretty")(options "")(descr ""))
+  (lib (name "eec")(type "KiCad")(uri "/home/caninodev/Developments/Hardware/Kicad/Libraries/IC_Microchip_MCP1700T-3302E_TT/eec.pretty")(options "")(descr ""))
+)
