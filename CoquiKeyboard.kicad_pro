@@ -33,9 +33,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.0,
-          "height": 0.65,
-          "width": 1.06
+          "drill": 2.5,
+          "height": 5.0,
+          "width": 5.0
         },
         "silk_line_width": 0.15,
         "silk_text_italic": false,
@@ -69,6 +69,7 @@
         "drill_out_of_range": "error",
         "duplicate_footprints": "warning",
         "extra_footprint": "warning",
+        "footprint_type_mismatch": "error",
         "hole_clearance": "error",
         "hole_near_hole": "error",
         "invalid_outline": "error",
@@ -125,6 +126,14 @@
         {
           "diameter": 0.0,
           "drill": 0.0
+        },
+        {
+          "diameter": 0.45,
+          "drill": 0.2
+        },
+        {
+          "diameter": 0.508,
+          "drill": 0.2032
         }
       ],
       "zones_allow_external_fillets": false,
@@ -379,6 +388,7 @@
         "microvia_drill": 0.1,
         "name": "Power",
         "nets": [
+          "+3V3",
           "+5V",
           "GND",
           "VBUS"
@@ -413,7 +423,7 @@
       }
     ],
     "meta": {
-      "version": 1
+      "version": 2
     },
     "net_colors": null
   },
@@ -423,7 +433,7 @@
       "idf": "",
       "netlist": "",
       "specctra_dsn": "CoquiKeyboard.dsn",
-      "step": "",
+      "step": "CoquiKeyboard.step",
       "vrml": ""
     },
     "page_layout_descr_file": ""
@@ -443,13 +453,14 @@
       "intersheets_ref_show": false,
       "intersheets_ref_suffix": "",
       "junction_size_choice": 3,
+      "label_size_ratio": 0.3,
       "pin_symbol_size": 25.0,
       "text_offset_ratio": 0.3
     },
     "legacy_lib_dir": "",
     "legacy_lib_list": [],
     "meta": {
-      "version": 0
+      "version": 1
     },
     "net_format_name": "",
     "ngspice": {
